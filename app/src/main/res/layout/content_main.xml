@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.suraj.waext.MainActivity"
+    tools:showIn="@layout/activity_main">
+    <!-- app:layout_behavior="@string/appbar_scrolling_view_behavior" -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:id="@+id/tvlockprefs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/lock_prefs"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvlockdesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tvlockprefs"
+            android:layout_alignStart="@id/tvlockprefs"
+            android:layout_below="@id/tvlockprefs"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginStart="7dp"
+            android:text="@string/lock_text"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/lllockafter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tvlockprefs"
+            android:layout_alignStart="@id/tvlockprefs"
+            android:layout_below="@id/tvlockdesc"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/tvlockafter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_weight="1"
+                android:text="@string/lock_after" />
+            
+            <Spinner
+                android:id="@+id/spinminutes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:dropDownWidth="wrap_content"
+                android:entries="@array/minutelist" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end">
+
+                <Button
+                    android:id="@+id/btnchangepass"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@mipmap/ic_settings_black_24dp" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <CheckBox
+            android:id="@+id/chkboxHideNotifs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tvlockprefs"
+            android:layout_alignStart="@id/tvlockprefs"
+            android:layout_below="@id/lllockafter"
+            android:layout_marginTop="8dp"
+            android:text="@string/hide_notifs" />
+
+        <CheckBox
+            android:id="@+id/chkboxLockWAWeb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tvlockprefs"
+            android:layout_alignStart="@id/tvlockprefs"
+            android:layout_below="@id/chkboxHideNotifs"
+            android:layout_marginTop="5dp"
+            android:text="@string/lock_whatsapp_web" />
+
+        <CheckBox
+            android:id="@+id/chkboxLockArchived"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tvlockprefs"
+            android:layout_alignStart="@id/tvlockprefs"
+            android:layout_below="@id/chkboxLockWAWeb"
+            android:layout_marginTop="5dp"
+            android:text="@string/lock_archived" />
+
+        <TextView
+            android:id="@+id/tvservicestatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chkboxLockArchived"
+            android:layout_margin="10dp"
+            android:text="@string/reminder_prefs"
+            android:textSize="22sp" />
+
+        <CheckBox
+            android:id="@+id/chkboxservicestate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tvservicestatus"
+            android:layout_alignStart="@id/tvservicestatus"
+            android:layout_below="@id/tvservicestatus"
+            android:layout_marginBottom="5dp"
+            android:text="@string/enable_reminder" />
+
+        <TextView
+            android:id="@+id/tvnote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tvservicestatus"
+            android:layout_alignStart="@id/tvservicestatus"
+            android:layout_below="@id/chkboxservicestate"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginStart="7dp"
+            android:text="@string/reminder_text"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvhighlight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvnote"
+            android:layout_margin="10dp"
+            android:text="@string/highlight_prefs"
+            android:textSize="22sp" />
+
+        <CheckBox
+            android:id="@+id/chkboxhighlight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tvhighlight"
+            android:layout_alignStart="@id/tvhighlight"
+            android:layout_below="@id/tvhighlight"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/highlight_groups" />
+
+        <Button
+            android:id="@+id/btncolorchooser"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignBaseline="@id/chkboxhighlight"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/ic_settings_black_24dp" />
+
+        <TextView
+            android:id="@+id/tvindividualchat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tvhighlight"
+            android:layout_alignStart="@id/tvhighlight"
+            android:layout_below="@id/chkboxhighlight"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/highlight_individual" />
+
+        <Button
+            android:id="@+id/btnindividualcolorchooser"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignBaseline="@id/tvindividualchat"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:background="@mipmap/ic_settings_black_24dp" />
+
+        <TextView
+            android:id="@+id/tvlastseen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvindividualchat"
+            android:layout_margin="10dp"
+            android:text="@string/privacy_prefs"
+            android:textSize="22sp" />
+
+        <CheckBox
+            android:id="@+id/chkboxseen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tvhighlight"
+            android:layout_alignStart="@id/tvhighlight"
+            android:layout_below="@id/tvlastseen"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/hide_last_seen" />
+
+        <CheckBox
+            android:id="@+id/chkboxreadreceipts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tvhighlight"
+            android:layout_alignStart="@id/tvhighlight"
+            android:layout_below="@id/chkboxseen"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/hide_read_receipts" />
+
+        <ImageButton
+            android:id="@+id/imgbtnreceiptsetting"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@id/chkboxreadreceipts"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/ic_settings_black_24dp" />
+
+        <CheckBox
+            android:id="@+id/chkboxdeliveryreports"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tvhighlight"
+            android:layout_alignStart="@id/tvhighlight"
+            android:layout_below="@id/chkboxreadreceipts"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/hide_delivery_receipts" />
+
+        <CheckBox
+            android:id="@+id/chkboxalwaysonline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tvhighlight"
+            android:layout_alignStart="@id/tvhighlight"
+            android:layout_below="@id/chkboxdeliveryreports"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/always_online" />
+
+        <CheckBox
+            android:id="@+id/chkboxBlockContacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tvhighlight"
+            android:layout_alignStart="@id/tvhighlight"
+            android:layout_below="@id/chkboxalwaysonline"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/block_contacts" />
+
+        <ImageButton
+            android:id="@+id/imgbtnblocksetting"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@id/chkboxBlockContacts"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/ic_settings_black_24dp" />
+
+        <CheckBox
+            android:id="@+id/chkboxPreventDeletion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tvhighlight"
+            android:layout_alignStart="@id/tvhighlight"
+            android:layout_below="@id/chkboxBlockContacts"
+            android:layout_marginBottom="3dp"
+            android:text="@string/prevent_delete" />
+
+        <CheckBox
+            android:id="@+id/chkboxPreventDeletionNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_below="@id/chkboxPreventDeletion"
+            android:layout_marginBottom="5dp"
+            android:text="@string/prevent_delete_notification" />
+
+        <TextView
+            android:id="@+id/tvlayoutprefs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chkboxPreventDeletionNotification"
+            android:layout_margin="10dp"
+            android:text="@string/layout_prefs"
+            android:textSize="22sp" />
+
+        <CheckBox
+            android:id="@+id/chkboxhidetabs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tvlockprefs"
+            android:layout_alignStart="@id/tvlockprefs"
+            android:layout_below="@id/tvlayoutprefs"
+            android:layout_marginTop="5dp"
+            android:text="@string/hide_tabs_btn" />
+
+        <CheckBox
+            android:id="@+id/chkboxHideToast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tvlockprefs"
+            android:layout_alignStart="@id/tvlockprefs"
+            android:layout_below="@id/chkboxhidetabs"
+            android:layout_marginTop="5dp"
+            android:text="@string/hide_toast_message" />
+
+        <CheckBox
+            android:id="@+id/chkboxHideStatusTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tvlockprefs"
+            android:layout_alignStart="@id/tvlockprefs"
+            android:layout_below="@id/chkboxHideToast"
+            android:layout_marginTop="5dp"
+            android:text="@string/hide_status_tab" />
+
+
+        <CheckBox
+            android:id="@+id/chkboxhidecamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tvlockprefs"
+            android:layout_alignStart="@id/tvlockprefs"
+            android:layout_below="@id/chkboxHideStatusTab"
+            android:layout_marginTop="5dp"
+            android:text="@string/hide_camera_btn" />
+
+
+        <CheckBox
+            android:id="@+id/chkboxreplacecallbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tvlockprefs"
+            android:layout_alignStart="@id/tvlockprefs"
+            android:layout_below="@id/chkboxhidecamera"
+            android:layout_marginTop="5dp"
+            android:text="@string/replace_call_btn" />
+
+        <CheckBox
+            android:id="@+id/chkboxblackticks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/chkboxreplacecallbtn"
+            android:layout_alignStart="@id/chkboxreplacecallbtn"
+            android:layout_below="@id/chkboxreplacecallbtn"
+            android:layout_marginTop="5dp"
+            android:text="@string/replace_ticks" />
+
+
+        <TextView
+            android:id="@+id/tvsingleclickaction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/chkboxreplacecallbtn"
+            android:layout_alignStart="@id/chkboxreplacecallbtn"
+            android:layout_below="@id/chkboxblackticks"
+            android:layout_marginLeft="7dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/single_click_label" />
+
+        <Spinner
+            android:id="@+id/spinsingleclickactions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/tvsingleclickaction"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:entries="@array/oneclickactions" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
+

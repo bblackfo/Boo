@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">WhatsApp Eklentileri</string>
+    <string name="action_settings">Ayarlar</string>
+
+    <string name="title_activity_change_password">Şifreyi Değiştir</string>
+    <string name="lock_prefs">Kilitleme Tercihleri</string>
+    <string name="lock_text">Siz whatsapp dan çıkınca tüm görüşmeleriniz kilitlenecek.</string>
+
+
+    <string name="lock_after">Sonra Kilitlencek </string>
+
+
+    <string name="change_password">Şifreyi Değiştir</string>
+
+
+    <string name="enter_current_password">Şuanki şifreyi girin. Varsayılan Şifre: 1234</string>
+    <string name="enter_new_password">Yeni şifre girin</string>
+    <string name="confirm_password">Şifreyi onayla</string>
+    <string name="password_length_warning">Uzunluğu 4 den az olamaz</string>
+    <string name="password_mismatch">Şifreler eşleşmiyor</string>
+    <string name="password_incorrect">Geçersiz Şifre</string>
+    <string name="password_change_message">Şifre Değiştirildi</string>
+    <string name="lock_enable_message">Bu kişi için kilitleme etkin</string>
+    <string name="lock_disable_message">Bu kişi için kilitleme devre dışı</string>
+    <string name="call_place_error">Çağrı açılamadı</string>
+    <string name="chat_reopen_message">Etkileri görmek için sohbet yeniden açın</string>
+    <string name="whatsapp_restart_message">>Etkileri görmek için Whatsapp ı yeniden açın</string>
+    <string name="whatsapp_restart_message_long">Whatsapp ı önceki uygulamalardan kaldır.</string>
+    <string name="wait_message">açılmadan 2 dakika sonra tekrar deneyin</string>
+
+
+    <string name="internal_error">Hata</string>
+    <string name="bundle_null_error">Aktivite açılırken hata:Bundle geçersiz</string>
+
+
+    <string name="select_picture">Resim Seç</string>
+
+    <!-- do not translate this string. see faq section on XDA thread -->
+    <string name="menuitem_call">ara</string>
+    <string name="voice_call_string">Voice call</string>
+
+
+
+    <string name="menuitem_hide">Gizle</string>
+    <string name="menuitem_unhide">Göster</string>
+    <string name="menuitem_wallpaper_set">Duvar kağıdı</string>
+    <string name="menuitem_wallpaper_remove">Duvar Kağıdını Kaldır</string>
+    <string name="menuitem_reminder">Hatırlatıcı Ekle</string>
+    <string name="menuitem_lock">Kilitle</string>
+    <string name="menuitem_unlock">Kilidi Aç</string>
+    <string name="menuitem_highlight">Öne Çıkanlar</string>
+    <string name="menuitem_unhighlight">Öne Çıkmayanlar</string>
+
+    <string name="reminder_prefs">Hatırlatıcı seçenekleri</string>
+    <string name="enable_reminder">Hatırlatıcı servisini etkinleştir</string>
+    <string name="reminder_text">Not: Servis uygulama tarafından otomatik olarak başlatılır. Etkinleştir/Devre Dışı seçeneklerini kullanarak tercihinizi belirleyebilirsiniz.</string>
+    <string name="reminder_in">içinde Hatırlar </string>
+    <string name="reply_to">%1$s kişisini Cevapla</string>
+
+
+    <string name="highlight_prefs">Öne Çıkarılan ayarlar</string>
+    <string name="highlight_groups">Öne Çıkarılan Gruplar</string>
+    <string name="highlight_individual">Bireysel sohbet vurgu rengi</string>
+    <string name="select_color">Renk seç</string>
+
+    <string name="privacy_prefs">Gizlilik Tercihleri</string>
+    <string name="hide_last_seen">Son görülmeyi gizle</string>
+    <string name="hide_read_receipts">Okundu bilgisini kapat</string>
+    <string name="hide_delivery_receipts">İletildi raporlarını kapat</string>
+    <string name="req_restart">Yeniden başlatmak gerektirir</string>
+
+    <string name="layout_prefs">Düzen Tercihleri</string>
+    <string name="hide_camera_btn">Kamera butonunu gizle</string>
+    <string name="hide_tabs_btn">Sekmeleri gizle</string>
+    <string name="replace_call_btn">Arama düğmesini değiştir</string>
+
+
+    <string name="color">Renk</string>
+    <string name="cancel">İptal</string>
+    <string name="clear">Gir</string>
+    <string name="enter">Enter</string>
+    <string name="default_password">Varsayılan Şifre: 1234</string>
+
+    <string-array name="minutelist">
+        <item>Hemen</item>
+        <item>1 Dakika</item>
+        <item>3 Dakika</item>
+        <item>5 Dakika</item>
+        <item>10 Dakika</item>
+    </string-array>
+
+    <string-array name="reminderlist">
+        <item>15 Dakika</item>
+        <item>30 Dakika</item>
+        <item>1 Saat</item>
+        <item>2 Saat</item>
+    </string-array>
+
+    <!--do not translate these strings see faq section on XDA thread-->
+    <string-array name="oneclickactions">
+        <item>Cevapla</item>
+        <item>Bilgi</item>
+        <item>Yönlendir</item>
+        <item>Devre Dışı Bırak</item>
+    </string-array>
+
+    <array name="demo_colors">
+        <item>#9CCC65</item>
+        <item>#D4E157</item>
+        <item>#FFEE58</item>
+        <item>#FFCA28</item>
+        <item>#FFA726</item>
+        <item>#FF7043</item>
+        <item>#BDBDBD</item>
+        <item>#78909C</item>
+        <item>#29B6F6</item>
+        <item>#ef5350</item>
+        <item>#EC407A</item>
+        <item>#212121</item>
+    </array>
+    <string name="title_activity_color_chooser">RenkSeçmeAktivitesi</string>
+    <string name="single_click_label">Tek Tıklamada eylem</string>
+
+    <string name="always_online">Bana her zaman çevrimiçi göster</string>
+    <string name="last_seen_hidden">WhatsApp\'ı son Apps\'tan silmeyin.</string>
+    <string name="restore_prefs">WhatsApp\'de gizlilik tercihlerinizi geri yükleyin.</string>
+    <string name="add">Eklemek</string>
+
+    <!-- Translate these for 4.6 -->
+    <string name="listtype_black">BlackList</string>
+    <string name="listtype_white">WhiteList</string>
+    <string name="whitelistinfo">Use this as %1$s</string>
+    <string name="hide_notifs">Hide notifications for locked contacts</string>
+    <string name="lock_whatsapp_web">Lock WhatsApp Web</string>
+    <string name="sqliteMissing">Sqlite3 may be missing. Please refer FAQ on XDA</string>
+    <!-- Translate end for v4.6 -->
+
+    <!-- not translated for > 4.6 -->
+    <string name="replace_ticks">Show black ticks instead of blue</string>
+    <string name="picker_activity_text">Pick a Contact</string>
+    <string name="search_hint">Search for Contact</string>
+    <string name="lock_archived">Lock Archived chats</string>
+    <string name="enable_rr_during_chat">Send Read Receipts while chatting</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    <!-- end -->
+
+    <string name="stats">Stats</string>
+    <string name="messagesReceived">Messages Received</string>
+    <string name="messagesSent">Messages Sent</string>
+    <string name="messageTotal">Total</string>
+
+    <!-- this is date. for example from 8/12/2016 to 17/01/2017 -->
+    <string name="messagesTimespan">From %1$s to %2$s</string>
+    <string name="title_activity_stats">Stats</string>
+    <string name="hide_status_tab">Hide status tab</string>
+    <string name="block_contacts">Permanently hide messages</string>
+
+    <string name="hide_toast_message">Hide toasts</string>
+
+    <!-- needs to be translated -->
+    <string name="prevent_delete">Disable remote deletion</string>
+    <string name="message_deleted">%1$s tried to delete a message</string>
+    <string name="message_deleted_group">A message from group %1$s deleted</string>
+    <string name="message_deleted_unknown">Someone tried to delete a message, cannot determine who</string>
+    <string name="prevent_delete_notification">Notify about deletion</string>
+
+
+</resources>

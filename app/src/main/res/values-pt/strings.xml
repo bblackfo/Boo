@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">WhatsApp extensões</string>
+    <string name="action_settings">Configurações</string>
+	
+    <string name="title_activity_change_password">Mudar Senha</string>
+	<string name="lock_prefs">Preferências de bloqueio</string>
+	<string name="lock_text">Bloquear todas as conversas depois de sair WhatsApp.</string>
+	
+    <string name="lock_after">Bloquear Após </string>
+
+    <string name="change_password">Mudar Senha</string>
+
+    <string name="enter_current_password">Insira a senha atual. senha padrão: 1234</string>
+    <string name="enter_new_password">Insira a nova senha</string>
+    <string name="confirm_password">Confirme a senha</string>
+    <string name="password_length_warning">O comprimento não pode ser mais do que 4</string>
+    <string name="password_mismatch">As senhas não correspondem</string>
+    <string name="password_incorrect">Senha incorreta</string>
+    <string name="password_change_message">Senha Alterada</string>
+    <string name="lock_enable_message">Bloqueio Ativado para este contato</string>
+    <string name="lock_disable_message">Bloquear desativado para este contato</string>
+    <string name="call_place_error">Não foi possível colocar chamadas</string>
+    <string name="chat_reopen_message">Reabrir conversar para ver os efeitos</string>
+    <string name="whatsapp_restart_message">Reinicie WhatsApp para entrar em vigor</string>
+    <string name="whatsapp_restart_message_long">Remover WhatsApp de aplicativos recentes e abri-lo novamente</string>
+
+    <string name="internal_error">Erro interno</string>
+    <string name="bundle_null_error">Erro ao abrir Activity:Bundle null</string>
+
+
+    <string name="select_picture">Selecionar Imagem</string>
+
+    <!-- do not translate this string. see faq section on XDA thread -->
+    <string name="menuitem_call">chamar</string>
+    <string name="voice_call_string">Voice call</string>
+
+
+    <string name="menuitem_hide">Ocultar</string>
+    <string name="menuitem_unhide">Desocultar</string>
+    <string name="menuitem_wallpaper_set">Imagem Personalizada</string>
+    <string name="menuitem_wallpaper_remove">Remover Imagem Pers.</string>
+    <string name="menuitem_reminder">Adicionar Lembrete</string>
+    <string name="menuitem_lock">Bloquear</string>
+    <string name="menuitem_unlock">Desbloquear</string>
+    <string name="menuitem_highlight">Cor de Destaque</string>
+    <string name="menuitem_unhighlight">Rem. Cor de destaque</string>
+
+	<string name="reminder_prefs">Preferências de lembrete</string>
+	<string name="enable_reminder">Ativar serviço de lembretes</string>
+	<string name="reminder_text">Nota: O serviço é tratado pelo aplicativo automaticamente. Use esta opção se você deseja ativar/desativar o serviço de forma explícita.</string>
+	<string name="reminder_in">Me Lembre em </string>
+	<string name="reply_to">Responder a %1$s</string>
+	
+	<string name="highlight_prefs">Preferências de Cores</string>
+	<string name="highlight_groups">Cor do chat em grupos</string>
+	<string name="highlight_individual">Cor do chat individual</string>
+	<string name="select_color">Selecione a cor</string>
+
+	<string name="privacy_prefs">Preferências de Privacidade</string>
+	<string name="hide_last_seen">Ocultar visto por último</string>
+	<string name="req_restart">Requer reinício</string>
+
+	<string name="layout_prefs">Preferências de Layout</string>
+	<string name="hide_camera_btn">Ocultar botão da câmera</string>
+    <string name="hide_tabs_btn">ocultar guias</string>
+    <string name="replace_call_btn">Substituir botão de chamada</string>
+
+
+    <string name="color">Cor</string>
+	<string name="cancel">Cancelar</string>
+	<string name="clear">Limpar</string>
+	<string name="enter">Confirmar</string>
+	<string name="default_password">Senha Padrão: 1234</string>
+	
+    <string-array name="minutelist">
+        <item>Imediato</item>
+        <item>1 Minuto</item>
+        <item>3 Minutos</item>
+        <item>5 Minutos</item>
+        <item>10 Minutos</item>
+    </string-array>
+
+    <!--do not translate these strings see faq section on XDA thread-->
+    <string-array name="oneclickactions">
+        <item>Resp.</item>
+        <item>Dados</item>
+        <item>Encaminhar</item>
+        <item>Incapacitar</item>
+    </string-array>
+
+    <string-array name="reminderlist">
+        <item>15 Minutos</item>
+        <item>30 Minutos</item>
+        <item>1 Hora</item>
+        <item>2 Horas</item>
+    </string-array>
+
+    <array name="demo_colors">
+        <item>#9CCC65</item>
+        <item>#D4E157</item>
+        <item>#FFEE58</item>
+        <item>#FFCA28</item>
+        <item>#FFA726</item>
+        <item>#FF7043</item>
+        <item>#BDBDBD</item>
+        <item>#78909C</item>
+        <item>#29B6F6</item>
+        <item>#ef5350</item>
+        <item>#EC407A</item>
+        <item>#212121</item>
+    </array>
+    <string name="title_activity_color_chooser">Escolher a cor</string>
+    <string name="wait_message">por favor, espere 2 minutos e tente novamente</string>
+    <string name="hide_read_receipts">Desativar confirmações de leitura</string>
+    <string name="single_click_label">Ação em clique único</string>
+    <string name="hide_delivery_receipts">Desativar relatórios de entrega</string>
+	
+    <string name="add">Adicionar</string>
+    <string name="last_seen_hidden">Não remova o WhatsApp dos aplicativos recentes.</string>
+    <string name="restore_prefs">Restaurar suas preferências de privacidade no WhatsApp.</string>
+    <string name="always_online">Sempre me mostre online </string>
+
+    <string name="listtype_black">Lista Negra</string>
+    <string name="listtype_white">Lista Branca</string>
+    <string name="whitelistinfo">Use isto como %1$s</string>
+    <string name="hide_notifs">Ocultar notificações para contatos bloqueados</string>
+    <string name="lock_whatsapp_web">Bloquear WhatsApp Web</string>
+    <string name="sqliteMissing">Sqlite3 pode está faltando. Por favor, consulte FAQ na XDA</string>
+
+    <!-- not translated for > 4.6 -->
+    <string name="replace_ticks">Mostrar tiques pretos em vez de azul</string>
+    <string name="picker_activity_text">Escolha um contato</string>
+    <string name="search_hint">Pesquisar contato</string>
+    <string name="lock_archived">Bloquear conversas arquivadas</string>
+    <string name="enable_rr_during_chat">Enviar recibos de leitura enquanto conversa</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restaurar</string>
+    <!-- end -->
+
+    <string name="stats">Estatísticas</string>
+    <string name="messagesReceived">Mensagens Recebidas</string>
+    <string name="messagesSent">Mensagens Enviadas</string>
+    <string name="messageTotal">Total</string>
+
+    <!-- this is date. for example from 8/12/2016 to 17/01/2017 -->
+    <string name="messagesTimespan">de %1$s para %2$s</string>
+    <string name="title_activity_stats">Estatísticas</string>
+    <string name="hide_status_tab">Ocultar guia de status</string>
+
+    <string name="block_contacts">Ocultar permanentemente as mensagens</string>
+
+    <string name="hide_toast_message">Esconder notificações rápidas</string>
+
+    <!-- needs to be translated -->
+    <string name="prevent_delete">Disable remote deletion</string>
+    <string name="message_deleted">%1$s tried to delete a message</string>
+    <string name="message_deleted_group">A message from group %1$s deleted</string>
+    <string name="message_deleted_unknown">Someone tried to delete a message, cannot determine who</string>
+    <string name="prevent_delete_notification">Notify about deletion</string>
+</resources>
